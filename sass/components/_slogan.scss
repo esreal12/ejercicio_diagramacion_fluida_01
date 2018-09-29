@@ -1,0 +1,33 @@
+.section-slogan {
+    color: inherit;
+    @include clearfix;
+    
+    &__text {
+        font-size: .8rem;
+        width: 75%;
+        float: left;
+        background-color: $color-black-blue;
+        height: 6rem;
+        padding: 2.4rem;
+    }
+
+    &__button {
+        color: white;
+        background-color: $color-magenta;
+        width: 25%;
+        height: 6rem;
+        float: right;
+        outline: none;
+        border: none;
+
+        &:active {
+            color: $color-magenta;
+            background-color: $color-white;
+        }
+    }
+
+     &__arrow {
+         font-size: 1.5rem;
+     }
+
+}

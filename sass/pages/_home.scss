@@ -1,11 +1,13 @@
-section.section-intro {
+.section-intro-container {
     background-image: linear-gradient(to right bottom, $color-cian, $color-cian-dark);
-    padding: 2.6rem;
+    padding: 4rem 2.6rem;
 }
 
-// .section-presentation {
-
-// }
+.section-slogan-container {
+    // padding: 1rem 2.6rem;
+    background-color: blue;
+    color: $color-white;
+}
 
 // .section-arrow {
 

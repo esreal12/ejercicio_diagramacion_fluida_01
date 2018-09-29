@@ -10,10 +10,9 @@ body {
   .heading-primary--sub {
     font-size: 1rem;
     font-weight: 100; }
-
-i.fas.fa-angle-right.fas__arrow {
-  position: relative;
-  left: 7rem; }
+  .heading-primary__arrow {
+    position: relative;
+    left: 7rem; }
 
 html {
   font-size: 62.5%; }
@@ -68,6 +67,60 @@ body {
     font-size: 1rem;
     color: #fff; }
 
+.section-slogan {
+  color: inherit; }
+  .section-slogan:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .section-slogan__text {
+    font-size: .8rem;
+    width: 75%;
+    float: left;
+    background-color: #27212c;
+    height: 6rem;
+    padding: 2.4rem; }
+  .section-slogan__button {
+    color: white;
+    background-color: #bc3183;
+    width: 25%;
+    height: 6rem;
+    float: right;
+    outline: none;
+    border: none; }
+    .section-slogan__button:active {
+      color: #bc3183;
+      background-color: #fff; }
+  .section-slogan__arrow {
+    font-size: 1.5rem; }
+
+button.btn {
+  outline: none;
+  border: none; }
+  button.btn::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: "\f105"; }
+  button.btn--small {
+    font-size: 1.5rem;
+    width: 25%;
+    height: 6rem;
+    float: right;
+    background-color: #bc3183;
+    color: white; }
+    button.btn--small:active {
+      color: #bc3183;
+      background-color: #fff; }
+  button.btn--big {
+    font-size: 3.5rem;
+    height: 25rem;
+    width: 100%;
+    color: white;
+    background-color: #5b0fa1; }
+    button.btn--big:active {
+      color: #5b0fa1;
+      background-color: #fff; }
+
 .header {
   background-color: #373c3f;
   height: 3.7rem;
@@ -84,7 +137,7 @@ body {
   margin: 0 auto;
   display: flow-root; }
   .row:not(:last-child) {
-    margin-bottom: 6rem; }
+    margin-bottom: 0; }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
@@ -102,9 +155,13 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-section.section-intro {
+.section-intro-container {
   background-image: linear-gradient(to right bottom, #19b4c6, #088ca5);
-  padding: 2.6rem; }
+  padding: 4rem 2.6rem; }
+
+.section-slogan-container {
+  background-color: blue;
+  color: #fff; }
 
 *,
 *::after,

@@ -1,0 +1,32 @@
+button.btn {
+    outline: none;
+    border: none;
+    &::after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 600;
+        content: "\f105";
+    }
+    &--small {
+        font-size: 1.5rem;
+        width: 25%;
+        height: 6rem;
+        float: right;
+        background-color: $color-magenta;
+        color: white;
+        &:active {
+            color: $color-magenta;
+            background-color: $color-white;
+        }
+    }
+    &--big {
+        font-size: 3.5rem;
+        height: 25rem;
+        width: 100%;
+        color: white;
+        background-color: $color-purple;
+        &:active {
+            color: $color-purple;
+            background-color: $color-white;
+        }
+    }
+}
