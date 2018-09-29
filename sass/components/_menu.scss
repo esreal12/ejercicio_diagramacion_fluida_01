@@ -3,6 +3,7 @@
     overflow: hidden;
     background-color: $color-grey;
     height: inherit;
+    z-index: 2;
 
     & a {
         float: left;

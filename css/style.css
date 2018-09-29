@@ -12,7 +12,12 @@ body {
     font-weight: 100; }
   .heading-primary__arrow {
     position: relative;
-    left: 7rem; }
+    left: 7rem;
+    z-index: 1; }
+
+.section-info__titular {
+  color: #088ca5;
+  margin-bottom: 2rem; }
 
 html {
   font-size: 62.5%; }
@@ -45,7 +50,8 @@ body {
 .nav {
   overflow: hidden;
   background-color: #373c3f;
-  height: inherit; }
+  height: inherit;
+  z-index: 2; }
   .nav a {
     float: left;
     display: block;
@@ -175,7 +181,8 @@ button.btn {
   padding: 4rem 2.6rem; }
 
 .section-info {
-  padding: 2.3rem 2.6rem; }
+  padding: 2.3rem 2.6rem;
+  background-color: #ebebeb; }
 
 *,
 *::after,
