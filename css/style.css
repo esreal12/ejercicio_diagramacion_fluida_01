@@ -96,8 +96,9 @@ body {
 
 button.btn {
   outline: none;
-  border: none; }
-  button.btn::after {
+  border: none;
+  transition: all .2s; }
+  button.btn:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 600;
     content: "\f105"; }
@@ -120,6 +121,20 @@ button.btn {
     button.btn--big:active {
       color: #5b0fa1;
       background-color: #fff; }
+
+.gallery:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.gallery__image {
+  height: 22rem;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .gallery__image--one {
+    background-image: url("../../img/2.png"); }
+  .gallery__image--two {
+    background-image: url("../../img/3.png"); }
 
 .header {
   background-color: #373c3f;
@@ -155,13 +170,12 @@ button.btn {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.section-intro-container {
+.section-intro {
   background-image: linear-gradient(to right bottom, #19b4c6, #088ca5);
   padding: 4rem 2.6rem; }
 
-.section-slogan-container {
-  background-color: blue;
-  color: #fff; }
+.section-info {
+  padding: 2.3rem 2.6rem; }
 
 *,
 *::after,

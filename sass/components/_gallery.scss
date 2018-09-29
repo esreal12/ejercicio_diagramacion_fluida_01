@@ -1,0 +1,17 @@
+.gallery {
+    @include clearfix;
+    
+    &__image {
+        height: 22rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        &--one {
+            background-image: url('../../img/2.png');
+        }
+
+        &--two {
+            background-image: url('../../img/3.png');
+        }
+    }
+}

@@ -1,11 +1,14 @@
 button.btn {
     outline: none;
     border: none;
-    &::after {
+    transition: all .2s;
+    
+    &:after {
         font-family: 'Font Awesome 5 Free';
         font-weight: 600;
         content: "\f105";
     }
+    
     &--small {
         font-size: 1.5rem;
         width: 25%;

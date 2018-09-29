@@ -1,22 +1,8 @@
-.section-intro-container {
+.section-intro {
     background-image: linear-gradient(to right bottom, $color-cian, $color-cian-dark);
-    padding: 4rem 2.6rem;
+    padding: $layout-intro;
 }
 
-.section-slogan-container {
-    // padding: 1rem 2.6rem;
-    background-color: blue;
-    color: $color-white;
+.section-info {
+    padding: $layout-info;
 }
-
-// .section-arrow {
-
-// }
-
-// .section-photos {
-
-// }
-
-// .section-content {
-
-// }
