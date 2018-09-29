@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio_diagramacion_fluida_01",
+  "version": "1.0.0",
+  "description": "Ejercicio de Diagramación Fluida. Con el profesor Pablo Monestel.",
+  "main": "index.js",
+  "scripts": {
+    "system:status": "echo 'System is Running'",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "system": "npm run system:status && cd sass && npm run compile:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esreal12/ejercicio_diagramacion_fluida_01.git"
+  },
+  "author": "Israel Umaña Sedó",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

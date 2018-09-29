@@ -1,0 +1,114 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  color: #515151; }
+
+.heading-primary {
+  color: #fff; }
+  .heading-primary--main {
+    font-size: 1.5rem; }
+  .heading-primary--sub {
+    font-size: 1rem;
+    font-weight: 100; }
+
+i.fas.fa-angle-right.fas__arrow {
+  position: relative;
+  left: 7rem; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:last-child) {
+    display: none; }
+  .nav a.icon {
+    float: right;
+    display: block; } }
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {
+    position: relative;
+    height: auto; }
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    padding: 1rem 1.5rem; }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
+
+.nav {
+  overflow: hidden;
+  background-color: #373c3f;
+  height: inherit; }
+  .nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    text-decoration: none; }
+    .nav a:hover {
+      background-color: #202529;
+      color: #fff; }
+  .nav .active {
+    background-color: #4caf50;
+    color: #fff; }
+  .nav .icon {
+    display: none;
+    background-color: #202529;
+    padding: 1rem 1.5rem; }
+  .nav .fa-bars {
+    font-size: 1rem;
+    color: #fff; }
+
+.header {
+  background-color: #373c3f;
+  height: 3.7rem;
+  position: relative; }
+  .header__title {
+    position: absolute;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    color: #fff; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: flow-root; }
+  .row:not(:last-child) {
+    margin-bottom: 6rem; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+section.section-intro {
+  background-image: linear-gradient(to right bottom, #19b4c6, #088ca5);
+  padding: 2.6rem; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }

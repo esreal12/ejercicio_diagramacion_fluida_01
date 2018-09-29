@@ -1,0 +1,13 @@
+.header {
+    background-color: $color-grey;
+    height: 3.7rem;
+    position: relative;
+    
+    &__title {
+        position: absolute;
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        color: $color-white;
+    }
+}

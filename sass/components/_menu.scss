@@ -1,0 +1,41 @@
+.nav {
+
+    overflow: hidden;
+    background-color: $color-grey;
+    height: inherit;
+
+    & a {
+        float: left;
+        display: block;
+        color: $color-white;
+        text-align: center;
+        // padding: 1.4rem 1.6rem;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        // font-size: 0.5rem;
+
+        &:hover {
+            background-color: $color-black;
+            color: $color-white;
+
+        }
+        
+    }
+    
+    & .active {
+        background-color: #4caf50;
+        color: $color-white;
+    }
+    & .icon {
+        display: none;
+        background-color: $color-black;
+        padding: 1rem 1.5rem;
+    }
+    
+    & .fa-bars {
+        font-size: 1rem;
+        color: $color-white;
+        // padding: 0.8rem 1rem;
+    }
+
+}
