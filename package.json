@@ -1,20 +1,37 @@
 {
-  "name": "ejercicio_diagramacion_fluida_01",
+  "name": "wbpck4_init_2018",
   "version": "1.0.0",
-  "description": "Ejercicio de Diagramación Fluida. Con el profesor Pablo Monestel.",
+  "description": "Init Dev Environment",
   "main": "index.js",
   "scripts": {
-    "system:status": "echo 'System is Running'",
-    "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "system": "npm run system:status && cd sass && npm run compile:sass"
+    "system": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/esreal12/ejercicio_diagramacion_fluida_01.git"
-  },
+  "keywords": [],
   "author": "Israel Umaña Sedó",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esreal12/ejercicio_diagramacion_fluida_01"
+  },
+  "homepage": "https://github.com/esreal12/ejercicio_diagramacion_fluida_01",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "autoprefixer": "^9.1.5",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin": "^6.0.0",
+    "img-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
